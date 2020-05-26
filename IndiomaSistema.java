@@ -1,6 +1,9 @@
 
 package indiomasistema;
-
+/*
+*@author Fabricio Mendes
+*    26/05/2020
+*/
 
 import java.util.Locale;
 
