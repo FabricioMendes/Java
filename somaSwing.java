@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
- * @author User
+ * @author Fabricio Mendes
+ *      26/05/2020
  */
+
 public class somaSwing extends javax.swing.JFrame {
 
     /**
@@ -84,10 +80,6 @@ public class somaSwing extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void txtN1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtN1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtN1ActionPerformed
 
     private void btnSomaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSomaActionPerformed
         // TODO add your handling code here:
