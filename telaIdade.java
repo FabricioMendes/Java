@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package classe;
 
 import java.time.LocalDate;
@@ -106,11 +101,13 @@ public class telaIdade extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcActionPerformed
+        
         // TODO add your handling code here:
         int atual = LocalDate.now().getYear(); // atual variable get year of date now
         int ano = Integer.parseInt(txtAn.getValue().toString()); // year ano, pass Integer and get value, modific for String
         int idade = atual - ano; // define how years old is the people
         lblIdade.setText(Integer.toString(idade)); // modific the label lblIdade of Int for string
+    
     }//GEN-LAST:event_btnCalcActionPerformed
 
     /**
